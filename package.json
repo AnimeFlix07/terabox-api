@@ -5,6 +5,7 @@
     "main": "api.js",
     "type": "module",
     "scripts": {
+    "start": "node server.js",
     "html": "python docs/apidoc.py",
     "lint": "eslint . --config .eslint.config.js"
     },
